@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+	padding: 0;
+    background-color: #e6bcb6;
+}
+
+.fade-in-image {
+	animation: fadeIn 5s;
+	-webkit-animation: fadeIn 5s;
+	-moz-animation: fadeIn 5s;
+	-o-animation: fadeIn 5s;
+	-ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+	0% {opacity: 0; }
+	100% {opacity:1; }
+}
+
+@-moz-keyframes fadeIn {
+	0% {opacity: 0; }
+	100% {opacity:1; }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {opacity: 0; }
+	100% {opacity:1; }
+}
+
+@-o-keyframes fadeIn {
+	0% {opacity: 0; }
+	100% {opacity:1; }
+}
+
+@-ms-keyframes fadeIn {
+	0% {opacity: 0; }
+	100% {opacity:1; }
+}
+
+.pfp {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}  
+
+.tft {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 10%;
+	float: top;
+}
+
+.kfc {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 10%;
+	float: top;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.tfc {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 50%;
+	float: bottom;
+}
+
+img {
+	width: 80%;
+}
+	
+.wrapper {
+	display: block;
+	margin: 0 auto;
+	width: 1000px;
+}
+
+video {
+	width: 90%;
+}
+
+@media only screen and (max-width: 600px) {
+	video {
+		width: 200px;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	video {
+		width: 500px;
+	}
+}
